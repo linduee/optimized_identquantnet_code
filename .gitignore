@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.DS_Store
+
+# PyTorch / model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Serialized training artifacts
+*.pickle
+*.pkl
+*.joblib
+
+# Figures / generated outputs
+*.png
+*.pdf
+*.svg
+
+# Local logs
+*.log
+
+# macOS
+.DS_Store
+
+# Output / result folders
+model_save_trial/
+weighted_mse_etomtx_only_trial/
+loss3_schematic_outputs/
+data_input/
+
+# VS Code
+.vscode/
